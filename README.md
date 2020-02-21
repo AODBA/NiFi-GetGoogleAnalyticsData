@@ -3,6 +3,8 @@
 -  Apache NiFi data flow to extract data from Google Analytics every hour as CSV and upload it to S3, you can trigger an PutSNS after or in case of errors you can have it sent to slack or an email. 
 
 # Apache NiFi Flow diagram
+
+- Import the template from Get_Google_Analytics.xml
 ![Apache NiFi Flow diagram](https://github.com/AODBA/NiFi-GetGoogleAnalyticsData/blob/master/img/Get_GA.PNG)
 # Parameter Contexts 
 - you can have this hardcoded(straight into the flow) or you can use a Parameter Contexts.
