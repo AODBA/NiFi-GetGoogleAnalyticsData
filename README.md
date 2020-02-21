@@ -4,6 +4,8 @@
 
 
 ![Apache NiFi Flow diagram](https://github.com/AODBA/NiFi-GetGoogleAnalyticsData/blob/master/img/Get_GA.PNG)
+# Parameter Contexts 
+![Apache NiFi Flow diagram](https://github.com/AODBA/NiFi-GetGoogleAnalyticsData/blob/master/img/Get_GA_Param_Context.PNG)
 
 
 # Python Code Reference: 
