@@ -18,7 +18,8 @@ https://developers.google.com/analytics/devguides/reporting/core/v3/quickstart/s
     6. end_date = till date when report will be generated
     7. my_filter = will apply a filer of type HH hour-1
 # Sample call :
-  ```python getGA.py \
+```
+  python getGA.py \
       /nifi/nifi_staging/google/ \
       ga_traffic_channel_goal_metrics \
       ga:date,ga:channelGrouping \
