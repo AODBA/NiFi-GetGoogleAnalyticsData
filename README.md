@@ -1,12 +1,18 @@
 # NiFi-GetGoogleAnalyticsData
 
- Apache NiFi data flow to extract data from Google Analytics every hour.
+-  Apache NiFi data flow to extract data from Google Analytics every hour as CSV and upload it to S3, you can trigger an PutSNS after or in case of errors you can have it sent to slack or an email. 
 
-
+# Apache NiFi Flow diagram
 ![Apache NiFi Flow diagram](https://github.com/AODBA/NiFi-GetGoogleAnalyticsData/blob/master/img/Get_GA.PNG)
 # Parameter Contexts 
-![Apache NiFi Flow diagram](https://github.com/AODBA/NiFi-GetGoogleAnalyticsData/blob/master/img/Get_GA_Param_Context.PNG)
+- you can have this hardcoded(straight into the flow) or you can use a Parameter Contexts.
+![Parameter Contexts](https://github.com/AODBA/NiFi-GetGoogleAnalyticsData/blob/master/img/Get_GA_Param_Context.PNG)
 
+
+
+# key_file_location_json 
+
+- you will need a config.json credential file, do this in your Google Dev Console Account. 
 
 # Python Code Reference: 
 https://developers.google.com/analytics/devguides/reporting/core/v3/quickstart/service-py
@@ -16,7 +22,7 @@ https://developers.google.com/analytics/devguides/reporting/core/v3/quickstart/s
 
 # Arguments:
     1. file_path = path where csv and json extract will be stored
-    2. report_name = csv file name | target redshift table name(table will be loaded via Infa job)
+    2. report_name = csv file name
     3. dimensions = dimensions for GA Query
     4. metrics = Metrics/measures for GA Query
     5. start_date = start date of extract
