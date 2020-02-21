@@ -4,7 +4,7 @@
 
 # Apache NiFi Flow diagram
 
-- Import the template from ![Apache NiFi Flow Template]https://github.com/AODBA/NiFi-GetGoogleAnalyticsData/blob/master/Get_Google_Analytics.xml)
+- Import the template from ![Apache NiFi Flow Template](https://github.com/AODBA/NiFi-GetGoogleAnalyticsData/blob/master/Get_Google_Analytics.xml)
 ![Apache NiFi Flow diagram](https://github.com/AODBA/NiFi-GetGoogleAnalyticsData/blob/master/img/Get_GA.PNG)
 # Parameter Contexts 
 - you can have this hardcoded(straight into the flow) or you can use a Parameter Contexts.
