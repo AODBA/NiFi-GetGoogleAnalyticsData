@@ -3,7 +3,7 @@
  Apache NiFi data flow to extract data from Google Analytics every hour.
 
 
-![Apache NiFi Flow diagram](https://github.com/AODBA/NiFi-GetGoogleAnalyticsData/img/Get_GA.PNG)
+![Apache NiFi Flow diagram](https://github.com/AODBA/NiFi-GetGoogleAnalyticsData/blob/master/img/Get_GA.PNG)
 
 
 # Python Code Reference: 
